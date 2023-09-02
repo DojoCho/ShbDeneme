@@ -48,5 +48,6 @@ public class UserService {
 
         userRepo.save(newUser);
         return new BaseResponse<>(true, "", newUser);
+
     }
 }

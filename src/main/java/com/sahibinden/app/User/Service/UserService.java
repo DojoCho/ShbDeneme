@@ -27,7 +27,6 @@ public class UserService {
             return new BaseResponse<>(false,"User not found", null);
         }
         return new BaseResponse<>(true,"", checkUser.get(0));
-
     }
 
     public BaseResponse<User> Register(UserRegisterDto userRegisterDto){

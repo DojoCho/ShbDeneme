@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 // swaggert için kullanılacak URL
-//http://localhost:8080/swagger-ui/index.html/
+//http://localhost:8080/swagger-ui/index.html/                Oracle MySQL Sifre: Ekrem1111
 
 @OpenAPIDefinition(
 		servers = @Server(url = "/", description = "Default Server URL"),

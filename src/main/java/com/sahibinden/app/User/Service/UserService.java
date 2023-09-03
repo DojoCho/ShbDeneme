@@ -29,6 +29,7 @@ public class UserService {
         return new BaseResponse<>(true,"", checkUser.get(0));
     }
 
+
     public BaseResponse<User> Register(UserRegisterDto userRegisterDto){
         if (!Utils.emailValidate(userRegisterDto.getEmail()))
         {
